@@ -1,15 +1,15 @@
 
-# Stock Price Movement Analysis
+ Stock Price Movement Analysis
 
 This project fetches stock price data from Yahoo Finance, calculates short-term trends using Simple Moving Averages (SMA), and visualizes the stock's price movement.
 
-## Features
+ Features
 - Fetch historical stock data using Yahoo Finance API (`yfinance`).
 - Calculate **10-day** and **20-day Simple Moving Averages (SMA)**.
 - Plot stock prices along with moving averages for trend analysis.
 - Identify short-term stock trends to assist in trading decisions.
 
-## Installation
+ Installation
 1. Clone the repository:
    ```sh
    git clone https://github.com/your-username/stock-price-movement.git
@@ -20,19 +20,19 @@ This project fetches stock price data from Yahoo Finance, calculates short-term 
    pip install -r requirements.txt
    ```
 
-## Dependencies
+ Dependencies
 Make sure you have the following Python libraries installed:
 ```sh
 pip install yfinance matplotlib pandas
 ```
 
-## Usage
+ Usage
 Run the script with the following command:
 ```python
 python stock_analysis.py
 ```
 
-### Example Code Usage
+ Example Code Usage
 ```python
 import yfinance as yf
 import matplotlib.pyplot as plt
@@ -56,22 +56,21 @@ def plot_stock_movement(ticker, start_date, end_date):
     plt.grid()
     plt.show()
 
-# Example usage
+ Example usage
 ticker_symbol = "AAPL"
 start = "2024-01-01"
 end = "2024-03-01"
 plot_stock_movement(ticker_symbol, start, end)
 ```
 
-## Example Output
+ Example Output
 The script will generate a stock price movement chart with moving averages to highlight trends.
 
-## Contributions
+ Contributions
 Contributions are welcome! Feel free to submit issues and pull requests.
 
-## License
+ License
 This project is licensed under the MIT License.
-
-## Author
-- **Your Name** - [GitHub Profile](https://github.com/your-username/)
+ Author
+ Divyanshi verma- [GitHub Profile](https://github.com/DivyanshiVerma312/Stock-Price-Movement_202401100400088)
 
